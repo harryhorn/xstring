@@ -20,8 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-"Object".to_class 			# => Object
-"marshmallow".to_class	# => nil
+    "Object".to_class 			# => Object
+    "marshmallow".to_class	# => nil
 
 ## Contributing
 
