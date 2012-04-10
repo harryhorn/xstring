@@ -6,9 +6,9 @@ Gem::Specification.new do |gem|
   gem.email         = ["harryhorn@gmail.com"]
   gem.description   = %q{Ruby String extensions - currently only one extension: to_class}
   gem.summary       = %q{Ruby String extensions}
-  gem.homepage      = ""
+  gem.homepage      = "https://rubygems.org/gems/xstring"
 
-  gem.add_development_dependency "rspec"
+  gem.add_development_dependency "rspec", '>= 2.0'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
