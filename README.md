@@ -20,8 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-"Object".to_class 			# => Object
-"marshmallow".to_class	# => nil
+    require 'xstring'
+
+    "Object".to_class       # => Object
+    "marshmallow".to_class  # => nil
 
 ## Contributing
 
