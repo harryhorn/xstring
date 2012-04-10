@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["harryhorn@gmail.com"]
   gem.description   = %q{Ruby String extensions - currently only one extension: to_class}
   gem.summary       = %q{Ruby String extensions}
-  gem.homepage      = "https://rubygems.org/gems/xstring"
+  gem.homepage      = "https://github.com/harryhorn/xstring"
 
   gem.add_development_dependency "rspec", '>= 2.0'
 
