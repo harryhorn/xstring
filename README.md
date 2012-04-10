@@ -4,6 +4,8 @@ Ruby String extensions.
 
 Currently includes one amazing to_class extension.
 
+Actually, this is my first gem but maybe it will be useful to someone ...
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-		require 'xstring'
+    require 'xstring'
 
     "Object".to_class # => Object
     "marshmallow".to_class # => nil
