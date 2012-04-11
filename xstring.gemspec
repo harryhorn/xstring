@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Ruby String extensions}
   gem.homepage      = "https://github.com/harryhorn/xstring"
 
-  gem.add_development_dependency "rspec", '>= 2.0'
+  gem.add_development_dependency "rspec", '~> 2.9'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

@@ -1,5 +1,4 @@
 require 'spec_helper.rb'
-require 'xstring'
 
 describe "xstring" do
   it "should return the class of the string text" do
