@@ -4,5 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'guard'
+gem 'rb-readline'
+gem 'growl'
 gem 'guard-rspec'
 gem 'guard-bundler'
